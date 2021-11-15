@@ -11,7 +11,7 @@ import streamlit as st
 #st.title('PartnerSales Collection Hub')
 st.write('Login Page')
 
-Username = st.text_input('Username')
-Password = st.text_input('Password')
+Uname = st.text_input('Username')
+Pwd = st.text_input('Password')
 
 st.button('Login')
