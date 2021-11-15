@@ -19,7 +19,10 @@ Pwd = st.text_input('Password')
 if st.button('Login'):
 	if len(Uname) > 1 or len(Pwd) > 1:
 		st.write('Logging in...')
+	else:
+		st.write('Username or Password cannot be empty')
 
 #if len(Uname) > 1 or len(Pwd) > 1:
 	#st.write ('Logging in...')
+
 
