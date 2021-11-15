@@ -10,7 +10,7 @@ import streamlit as st
 
 #st.title('PartnerSales Collection Hub')
 
-TRimage = Image.open("C:/Users/u6075712/OneDrive - Thomson Reuters Incorporated/Documents/zion/ReutersLogo.png")
+TRimage = Image.open("C:/Users/u6075712/Downloads/New folder/ReutersLogo.png")
 
 
 st.write('Login Page')
