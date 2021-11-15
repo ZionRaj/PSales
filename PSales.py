@@ -8,7 +8,8 @@ import streamlit as st
 
 """
 
-st.title('PartnerSales Collection Hub')
+#st.title('PartnerSales Collection Hub')
+st.write('Login Page')
 
 Username = st.text_input('Username')
 Password = st.text_input('Password')
