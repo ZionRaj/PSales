@@ -10,7 +10,7 @@ import streamlit as st
 
 st.title('PartnerSales Collection Hub')
 
-Username = st.text_input('Username', placeholder='XXXXXXX')
+Username = st.text_input('Username')
 Password = st.text_input('Password')
 
 st.button('Login')
