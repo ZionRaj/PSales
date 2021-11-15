@@ -14,7 +14,12 @@ st.write('Login Page')
 Uname = st.text_input('Username')
 Pwd = st.text_input('Password')
 
-Login_button = st.button('Login')
+#Login_button = st.button('Login')
 
-if len(Uname) > 1 or len(Pwd) > 1:
-	st.write ('Logging in...')
+if st.button('Login'):
+	if len(Uname) > 1 or len(Pwd) > 1:
+		st.write('Logging in...')
+
+#if len(Uname) > 1 or len(Pwd) > 1:
+	#st.write ('Logging in...')
+
