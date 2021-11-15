@@ -10,6 +10,9 @@ import streamlit as st
 
 #st.title('PartnerSales Collection Hub')
 
+TRimage = Image.open('C:\\Users\\u6075712\\OneDrive - Thomson Reuters Incorporated\\Documents\\zion\\ReutersLogo.png')
+
+
 st.write('Login Page')
 
 Uname = st.text_input('Username')
@@ -22,7 +25,7 @@ if st.button('Login'):
 		st.write('Logging in...')
 		st.set_page_config(
 			page_title = 'PartnerSales report upload',
-			page_icon = st.image(load_image_from_local("C:\\Users\\u6075712\\OneDrive - Thomson Reuters Incorporated\\Documents\\zion\\ReutersLogo.png"), width=300),
+			page_icon = st.image(TRimage, width=300),
 			layout="wide",
         	initial_sidebar_state="expanded")
 	else:
@@ -30,4 +33,3 @@ if st.button('Login'):
 
 #if len(Uname) > 1 or len(Pwd) > 1:
 	#st.write ('Logging in...')
-
