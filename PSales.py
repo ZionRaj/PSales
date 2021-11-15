@@ -16,5 +16,5 @@ Pwd = st.text_input('Password')
 
 Login_button = st.button('Login')
 
-if len(Uname) > 1 or len(Pws) > 1:
+if len(Uname) > 1 or len(Pwd) > 1:
 	st.write ('Logging in...')
